@@ -6,13 +6,16 @@
   "dependencies": {
     "@ksoft/api": "^3.1.9",
     "abort-controller": "^3.0.0",
+    "airtable": "^0.11.1",
     "asynckit": "^0.4.0",
+    "autocode": "^0.3.5",
     "aws4": "^1.11.0",
-    "axios": "^0.21.1",
-    "chalk": "^4.1.0",
+    "axios": "^0.21.4",
+    "chalk": "^4.1.2",
     "combined-stream": "^1.0.8",
     "delayed-stream": "^1.0.0",
-    "discord.js": "^12.5.2",
+    "discord": "^0.8.2",
+    "discord.js": "^12.5.3",
     "dotenv": "^10.0.0",
     "encoding": "^0.1.13",
     "erela.js": "^2.3.2",
@@ -22,7 +25,7 @@
     "follow-redirects": "^1.13.3",
     "genius-lyrics": "^4.2.9",
     "image-palette": "^2.1.0",
-    "image-pixels": "^2.2.2",
+    "image-pixels": "^1.1.1",
     "lyrics-finder": "^21.7.0",
     "mime-db": "^1.46.0",
     "mime-types": "^2.1.29",
@@ -30,11 +33,13 @@
     "mongoose": "^5.12.3",
     "node-fetch": "^2.6.1",
     "os": "^0.1.1",
+    "package.json": "^2.0.1",
     "petitio": "^1.1.0",
     "pretty-ms": "^7.0.1",
     "prism-media": "^1.2.9",
     "setimmediate": "^1.0.5",
-    "shortid": "^2.2.16",
+    "short-id": "^0.0.0",
+    "shortid": "^2.2.8",
     "string-progressbar": "^1.0.4",
     "tweetnacl": "^1.0.3",
     "ws": "^7.4.4"
@@ -52,7 +57,7 @@
   },
   "bugs": {
     "url": "https://github.com/Weeb-Devs/Laffey/issues"
-      },
+  },
   "engines": {
     "node": ">=14.x"
   },

@@ -10,7 +10,7 @@ module.exports = {
         const player = new lavalink(client)
         client.player = player
         player.init(client.user.id)
-        client.user.setActivity(`${client.defaultPrefix}help | Currently in ${client.guilds.cache.size} guild${client.guilds.cache.size <= 1 ? '' : 's'} | ${version}`)
+        client.user.setActivity(`${client.defaultPrefix}help `)
         setInterval(() => {
             let statusList = [
                 `${client.defaultPrefix}help | ${client.guilds.cache.size} guild${client.guilds.cache.size <= 1 ? '' : 's'} | ${version}`,
